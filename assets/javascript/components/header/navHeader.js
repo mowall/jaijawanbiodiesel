@@ -2,7 +2,7 @@ import React from 'react';
 
 export default class NavHeader extends React.Component {
 	render(){
-		const logoImage = require('../../../images/logo3.png');
+		const logoImage = require('../../../images/logo.png');
 
 		return (
 			<div className="navbar-header">

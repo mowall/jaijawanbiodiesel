@@ -1,1 +1,1 @@
-web: NODE_ENV=production webpack && NODE_ENV=production webpack-dev-server --host=0.0.0.0 --port=$PORT
+web: npm start
