@@ -7,7 +7,7 @@ export default class DefaultSideMenu extends React.Component {
             	<div className="list-group defaultSideMenu">
   					<a href="#/" className="list-group-item">Historical Background</a>
   					<a href="#/" className="list-group-item">Property</a>
-  					<a href="#/" className="list-group-item">Production</a>
+  					<a href="#/production" className="list-group-item">Production</a>
   					<a href="#/" className="list-group-item">BioDiesel Policies</a>
             <a href="#/" className="list-group-item">Company Information</a>
 				</div>

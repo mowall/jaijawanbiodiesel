@@ -13,6 +13,7 @@ import CompanyMission from '../components/pages/companyMission';
 import FAQ from '../components/pages/faq';
 import DeskOfMD from '../components/pages/deskOfMD';
 import Contact from '../components/pages/contact';
+import Production from '../components/pages/production';
 
 export default class Root extends React.Component {
     render() {
@@ -26,7 +27,8 @@ export default class Root extends React.Component {
                     <Route name='companymission' path='/companymission' component={CompanyMission} />                    
                     <Route name='faq' path='/faq' component={FAQ} />                    
                     <Route name='deskofmd' path='/deskofmd' component={DeskOfMD} />                    
-                    <Route name='contact' path='/contact' component={Contact} />                    
+                    <Route name='contact' path='/contact' component={Contact} />
+                    <Route name='production' path='/production' component={Production} />                    
                 </Route>
             </Router>
         );

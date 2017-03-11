@@ -4,7 +4,6 @@
   "description": "This is project for JaiJawanBioDiesel pvt.ltd",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev":"webpack --config=./webpack.config.js --watch --progress",
     "start":"NODE_ENV=production webpack && NODE_ENV=production webpack-dev-server --host=0.0.0.0 --port=$PORT"
   },
