@@ -2,10 +2,13 @@ import React from 'react';
 
 export default class Introduction extends React.Component {
     render () {
+        const h2Style={
+            borderBottom: "none"
+        };
     	const mdvisionImage = require('../../../../images/mdvision.jpg');
         return (
             <div className="col-md-12">
-            	<h2 className='defaultHeader'>From The Dest Of M.D.</h2>
+            	<h2 className='defaultHeader'style={h2Style}>From The Dest Of M.D.</h2>
                 <img src={mdvisionImage} className="img-responsive introImage" alt="M.D. Vision Image"/>
             	<p>
             	Biodiesel is a wonder of the wonders of this era - A Fuel Oil replacement for Mineral Diesel Fuel (HSD/LDO/FO) with far superior characteristics. To name a few are:
