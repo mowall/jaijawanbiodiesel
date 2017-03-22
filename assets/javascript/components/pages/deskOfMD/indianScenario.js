@@ -5,8 +5,7 @@ export default class IndianScenario extends React.Component {
         return (
             <div className="col-md-12">
                 <h2 className='defaultHeader'>THE INDIAN SCENARIO</h2>
-                <br />
-                <ul>
+                <ul className="defaultList">
                 	<li>
                 	Demand for petroleum Products for the year 2008 was 124MMT.
                 	</li>
@@ -23,7 +22,6 @@ export default class IndianScenario extends React.Component {
                 	Consumption of motor gasoline ( Petrol) in the year 2008 was 9.64 MMT.
                 	</li>
             	</ul>
-            	<br />
             </div>
         );
     }

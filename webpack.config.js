@@ -16,7 +16,7 @@ var webpack = require('webpack');
                 exclude:/(node_modules|bower_components)/,
                 query: { presets: ['es2015', 'react','stage-0'] } },
              { test: /\.sass$/, loaders: ['style-loader', 'css-loader', 'sass-loader'] },
-             { test: /\.(png|jpg)$/, loader: 'url-loader?limit=50000' }
+             { test: /\.(png|jpg)$/, loader: 'url-loader' }
          ]
      },
      resolveLoader: {

@@ -21,22 +21,23 @@ export default class NavBar extends React.Component {
                         <li className="dropdown">
                           <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BioDiesel<span className="caret"></span></a>
                           <ul className="dropdown-menu">
-                            <li><a href="#">What is BioDiesel</a></li>
-                            <li><a href="#">History</a></li>
-                            <li><a href="#">BioDiesel- A Fuel For Future</a></li>
-                            <li><a href="#">SWOT Analysis</a></li>
-                            <li><a href="#">Facts & Figures</a></li>
+                            <li><a href="#/whatisbiodiesel">What is BioDiesel</a></li>
+                            <li><a href="#/biodieselhistory">History</a></li>
+                            <li><a href="#/futurefuel">BioDiesel- A Fuel For Future</a></li>
+                            <li><a href="#/swotanalysis">SWOT Analysis</a></li>
+                            <li><a href="#factsandfigures">Facts & Figures</a></li>
                           </ul>
                         </li>
                         <li className="dropdown">
                           <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FeedStock<span className="caret"></span></a>
                           <ul className="dropdown-menu">
-                            <li><a href="#">Animal Tallow</a></li>
-                            <li><a href="#">BioDiesel From Neem Oil</a></li>
-                            <li><a href="#">BioDiesel From Palm Oil</a></li>
-                            <li><a href="#">Rapeseed As A Fuel</a></li>
-                            <li><a href="#">Rice Bran Oil</a></li>
-                            <li><a href="#">Waste Vegetable Oil</a></li>                            
+                            <li><a href="#/aboutFeedStock">About FeedStock</a></li>
+                            <li><a href="#/animaltallow">Animal Tallow</a></li>
+                            <li><a href="#/biodieselfromneemoil">BioDiesel From Neem Oil</a></li>
+                            <li><a href="#/biodieselfrompalmoil">BioDiesel From Palm Oil</a></li>
+                            <li><a href="#/rapeseedasafuel">Rapeseed As A Fuel</a></li>
+                            <li><a href="#/ricebranoil">Rice Bran Oil</a></li>
+                            <li><a href="#/wastevegetableoil">Waste Vegetable Oil</a></li>                            
                           </ul>
                         </li>
                         <li><a href="#/governmentvision">Government Vision</a></li>

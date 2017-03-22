@@ -5,8 +5,7 @@ export default class IndianEconomy extends React.Component {
         return (
             <div className="col-md-12">
                 <h2 className='defaultHeader'>Biodiesel and the Indian Economy</h2>
-            	<br />
-            	<ul>
+            	<ul className="defaultList">
             		<li>
             		An increase in $1 per barrel of crude oil prices adds to $425 million to Indian Oil Import Bill.
             		</li>
@@ -23,7 +22,6 @@ export default class IndianEconomy extends React.Component {
             		Investment in Biodiesel technology will ensure that India has transportation fuel options and will not be so vulnerable.	
             		</li>
             	</ul>
-            	<br />
             	<p>
             	India must traverse the path of indigenous energy creation through innovative engineering in order to move from Mineral Oils to Biofuels to reap the economic and environmental benefits from the upcoming and booming biodiesel Industry.
             	</p>

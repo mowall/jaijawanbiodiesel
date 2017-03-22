@@ -8,8 +8,7 @@ export default class WorldScenario extends React.Component {
                 <p>
                 Organizations across the globe are working in tandem with the Global Community to shift to Green Energy by implementing those processes and technology which are environment and nature friendly. Biodiesel is gaining immense popularity for encompassing those characteristics which will soon change our polluted environment, atmosphere encased with harmful emissions, gloomy sky into a <b>GREENER AND BRIGHTER TOMORROW</b>.
                 </p>
-                <br />
-                <ul>
+                <ul className="defaultList">
                 	<li>
                 	Biodiesel is widely produced in Europe (Germany, France, Italy and Austria), United States of America, Brazil and is coming up in a big way in Japan, Indonesia, Malaysia and India.
                 	</li>
@@ -28,7 +27,6 @@ export default class WorldScenario extends React.Component {
 					<br />India: Animal tallow, Acid oil, Palm Oil, Fish Oil, Karanj, Jatropha etc.
                 	</li>
                 </ul>
-                <br />
                 <p>
                 Biodiesel is an established Industry and the practice of using Biodiesel is well established world over.
                 </p>

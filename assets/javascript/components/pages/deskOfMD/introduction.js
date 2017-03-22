@@ -10,15 +10,13 @@ export default class Introduction extends React.Component {
             	<p>
             	Biodiesel is a wonder of the wonders of this era - A Fuel Oil replacement for Mineral Diesel Fuel (HSD/LDO/FO) with far superior characteristics. To name a few are:
             	</p>
-                <br />
-            	<ul>
+            	<ul className="defaultList">
             		<li>Far superior to Mineral Diesel</li>
             		<li>Environmental friendly</li>
             		<li>Safe</li>
             		<li>Renewable</li>
             		<li>Can be home brewed</li>
             	</ul>
-                <br />
             	<p>
             	Biodiesel can be produced from any vegetable oil, Animal Tallow, Waste Cooking Oil, Fish Oil and the like which occurs naturally across the globe.
             	</p>
