@@ -53,7 +53,6 @@ export default class BioDieselFromPalmOil extends React.Component {
                         </p>
                     </div>
                 </div>
-                
             </div>
         );
     }

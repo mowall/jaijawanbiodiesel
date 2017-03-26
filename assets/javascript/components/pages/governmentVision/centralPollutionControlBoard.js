@@ -13,7 +13,6 @@ export default class CentralPollutionControlBoard extends React.Component {
                <Manufacturers />
                <PrivateProducers />
                <PrivateManufacturers />
-               <br />	
             </div>
         );
     }

@@ -1,11 +1,20 @@
-$bggreen      : #1cab13
-$hovergreen	: #CCFF90
+$borderRadius : #29710e
+$textColor : #edeeb7
+$hoverColor : #121307
 .defaultSideMenu
 	.list-group-item
-		background-color: $bggreen
+		color:  $textColor
+		text-align : center
+		border-radius: 4px
+	.list-group-item
+		margin-top: 20px
+		background: #75bb35
+		background: -webkit-linear-gradient(180deg, #75bb35 , #2c7512)
+		background: linear-gradient(180deg, #75bb35 , #2c7512)
 		&:hover
-			background-color: $hovergreen 
+			color: $hoverColor 
+		
 	.list-group-item:first-child
-		border-radius: 0px
+		margin-top: 30px	
 	padding : 0px
 	margin: 0px

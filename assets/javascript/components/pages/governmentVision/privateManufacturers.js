@@ -25,7 +25,6 @@ export default class PrivateManufacturers extends React.Component {
 				The government had in January 2006 announced a bio-diesel purchase policy to encourage production and use by blending it with diesel.
 				“As the price of diesel is already deregulated and determined by the market, there is no economic justification in preventing private bio-diesel manufacturers, their authorised dealers and JVs of OMCs authorised by the MoP&amp;NG from selling bio-diesel directly to consumers subject to their product meeting prescribed BIS standards,” said the statement.
                 </p>
-                <br />
             </div>
         );
     }

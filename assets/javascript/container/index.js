@@ -8,13 +8,15 @@ export default class Container extends React.Component{
         return (
             <section>
                 <DefaultHeader />
-                <div className="container">
-                    <div className="row">
-                        <DefaultSideMenu />
-                        {this.props.children}
+                <div className="contentBody">
+                    <div className="container">
+                        <div className="row">
+                            <DefaultSideMenu />
+                            {this.props.children}
+                        </div>
                     </div>
                 </div>
-                
+                <DefaultFooter />
             </section>
         );
     }
