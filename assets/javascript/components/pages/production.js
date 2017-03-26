@@ -9,8 +9,8 @@ export default class Production extends React.Component {
             <div className="col-md-9">
             	<div className='row'>
                		<Introduction />
+                  <FactoryLayoutSlideShow />
                		<ProductionLevel />
-               		<FactoryLayoutSlideShow />
                	</div>
             </div>
         );
