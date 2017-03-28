@@ -8,7 +8,7 @@ export default class SWOTAnalysis extends React.Component {
     	};
     	
         return (
-            <div className="col-md-9">
+            <div className="col-md-9 contentScreen">
             	<div className="row">
             		<div className="col-md-12">
             			<h2 className='defaultHeader' style={h2Style} >SWOT Analysis</h2>

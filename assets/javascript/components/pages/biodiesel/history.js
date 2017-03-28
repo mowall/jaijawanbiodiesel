@@ -7,7 +7,7 @@ export default class BioDieselHistory extends React.Component {
             borderBottom: "none"
         };
         return (
-            <div className="col-md-9">
+            <div className="col-md-9 contentScreen">
                 <div className="row">
                 	<div className="col-md-12">
                 		<h2 className='defaultHeader' style={h2Style}>History Of BioDiesel</h2>

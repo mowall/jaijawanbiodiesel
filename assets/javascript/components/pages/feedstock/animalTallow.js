@@ -6,7 +6,7 @@ export default class AnimalTallow extends React.Component {
             borderBottom:"none"
       };
         return (
-            <div className="col-md-9">
+            <div className="col-md-9 contentScreen">
             	<div className="row">
             		<div className="col-md-12">
             			<h2 className="defaultHeader" style={h2Style}>Animal Tallow</h2>

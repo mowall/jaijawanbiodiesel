@@ -7,6 +7,7 @@ const history = useRouterHistory(createHashHistory)();
 import Container from '../container/index';
 import Home from '../components/pages/home';
 import CurrentResearch from '../components/pages/currentResearch';
+import CompanyInformation from '../components/pages/companyInformation';
 import GovernmentVision from '../components/pages/governmentVision';
 import CompanyMission from '../components/pages/companyMission';
 import FAQ from '../components/pages/faq';
@@ -53,6 +54,7 @@ export default class Root extends React.Component {
                     <Route name='ricebranoil' path='/ricebranoil' component={RiceBranOil} />
                     <Route name='wastevegetableoil' path='/wastevegetableoil' component={WasteVegetableOil} />
                     <Route name='biodieselpolicies' path='/biodieselpolicies' component={BiodieselPolicies} />
+                    <Route name='companyinformation' path='/companyinformation' component={CompanyInformation} />
                 </Route>
             </Router>
         );

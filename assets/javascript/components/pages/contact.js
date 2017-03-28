@@ -7,7 +7,7 @@ export default class Contact extends React.Component {
         borderBottom: "none"
       };
         return (
-            <div className="col-md-9">
+            <div className="col-md-9 contentScreen">
                <div className="row">
                		<div className="col-md-12">
                			<h2 className="defaultHeader" style={h2Style}>Contact</h2>
@@ -15,7 +15,7 @@ export default class Contact extends React.Component {
                			<dl className="defaultDescList">
                				<dt>Registered Office & Mailing Address:</dt>
                				<dd>
-               					ARTARA ROD MAUDAHA HAMIRPUR (U.P) <br />
+               					ARTARA ROAD MAUDAHA HAMIRPUR (U.P) <br />
                					BRANCH OFFICE: BHARUA SUMERPUR (U.P)
                				</dd>
                				<br />
@@ -32,6 +32,7 @@ export default class Contact extends React.Component {
                					 EMAIL: guptasantoshkumar280@gmail.com
                				</dd>
                			</dl>
+                    <br />
                		</div>
                </div>
             </div>

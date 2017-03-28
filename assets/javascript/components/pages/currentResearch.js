@@ -5,12 +5,13 @@ export default class CurrentResearch extends React.Component {
     	const h2Style={
     		borderBottom: "none"
     	};
+     const currentResearchImage = require('../../../images/currentResearchImage.png');
         return (
-            <div className="col-md-9">
+            <div className="col-md-9 contentScreen">
                <div className="row">
                		<div className='col-md-12'>
-               			<h2 className="defaultHeader" style={h2Style}>Current Research</h2>
-               			<p>image goes here</p>
+               			<br />
+               			<img src={currentResearchImage} className="img-responsive" alt="Current Research Image Image"/>
                			<br />
                			<p>
                				There is ongoing research into finding more suitable crops and improving oil yield. Other sources are possible including human fecal matter, with Ghana building its first "fecal sludge-fed biodiesel plant.".Using the current yields, vast amounts of land and fresh water would be needed to produce enough oil to completely replace fossil fuel usage. It would require twice the land area of the US to be devoted to soybean production, or two-thirds to be devoted to rapeseed production, to meet current US heating and transportation needs.

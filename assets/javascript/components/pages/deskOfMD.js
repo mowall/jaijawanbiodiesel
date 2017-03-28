@@ -8,7 +8,7 @@ import IndianEconomy from './deskOfMD/indianEconomy';
 export default class DeskOfMD extends React.Component {
     render () {
         return (
-            <div className="col-md-9">
+            <div className="col-md-9 contentScreen">
                <div className="row">
                     <Introduction />
                     <WorldScenario />
