@@ -6,7 +6,6 @@ const history = useRouterHistory(createHashHistory)();
 
 import Container from '../container/index';
 import Home from '../components/pages/home';
-import Introduction from '../components/pages/introduction';
 import CurrentResearch from '../components/pages/currentResearch';
 import GovernmentVision from '../components/pages/governmentVision';
 import CompanyMission from '../components/pages/companyMission';
@@ -34,7 +33,6 @@ export default class Root extends React.Component {
             <Router history = {history}>
                 <Route name='container' path='/' component={Container}>
                     <IndexRoute component={Home} />
-                    <Route name='introduction' path='/introduction' component={Introduction} />
                     <Route name='currentresearch' path='/currentresearch' component={CurrentResearch} />                    
                     <Route name='governmentvision' path='/governmentvision' component={GovernmentVision} />                    
                     <Route name='companymission' path='/companymission' component={CompanyMission} />                    

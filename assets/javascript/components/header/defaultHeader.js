@@ -6,7 +6,7 @@ import NavHeader from './navHeader';
 export default class DefaultHeader extends React.Component {
     render () {
         return (
-            <header>
+            <header className="navHeader">
                 <NavHeader/>
                 <NavBar />
             </header>
