@@ -2,15 +2,12 @@ import React from 'react';
 
 export default class Contact extends React.Component {
     render () {
-      const contactImage = require('../../../images/contactImage.jpg'); 
-      const h2Style={
-        borderBottom: "none"
-      };
+      const contactImage = require('../../../images/contactImage.png'); 
         return (
             <div className="col-md-9 contentScreen">
                <div className="row">
                		<div className="col-md-12">
-               			<h2 className="defaultHeader" style={h2Style}>Contact</h2>
+                    <br />
                			<img src={contactImage} className="img-responsive" alt="Contact Image"/>
                			<dl className="defaultDescList">
                				<dt>Registered Office & Mailing Address:</dt>

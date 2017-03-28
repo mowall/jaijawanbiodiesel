@@ -2,14 +2,13 @@ import React from 'react';
 
 export default class FAQ extends React.Component {
     render () {
-      const h2Style={
-        borderBottom: "none"
-      };
+      const faqImage = require('../../../images/faqs.png');
         return (
             <div className="col-md-9 contentScreen">
                <div className="row">
                	  <div className="col-md-12 biodieselPoliciesCss">
-                    <h2 className="defaultHeader" style={h2Style}>FREQUENTLY ASKED QUESTION  ON BIODIESEL FUEL</h2>
+                    <br  />
+                <img src={faqImage} className="img-responsive introImage" alt="FAQ'S Image"/>
                     <br />
                     <div className="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
               <div className="panel panel-default">
