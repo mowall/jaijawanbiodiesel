@@ -2,15 +2,13 @@ import React from 'react';
 
 export default class WasteVegetableOil extends React.Component {
     render () {
-    	const h2Style= {
-    		borderBottom:"none"
-    	};
+        const wasteVegetableOilImage = require('../../../../images/wastevegetableoil.png');
         return (
             <div className="col-md-9 contentScreen">
                 <div className="row">
                     <div className="col-md-12">
-                        <h2 className="defaultHeader" style={h2Style}>Waste Vegetable Oil As A Fuel For BioDiesel</h2>
-                        <p>image here</p>
+                        <br />
+                        <img src={wasteVegetableOilImage} className="img-responsive introImage" alt="Waste Vegetable Oil Image"/>
                         <br />
                         <p>
                             Waste oils and fats can be used as renewable fuel resources. Conversion of waste oils and fats to biodiesel fuel is one possibility but poses some difficulties such as in the use of toxic or caustic materials and by-product disposal. Conversion to biodiesel may also decrease the economic attractiveness of using waste oils as fuels.

@@ -2,15 +2,13 @@ import React from 'react';
 
 export default class RapeseedAsAFuel extends React.Component {
     render () {
-    	const h2Style= {
-    		borderBottom:"none"
-    	};
+    	const rapeseedImage = require('../../../../images/rapeseed.png');
         return (
             <div className="col-md-9 contentScreen">
                 <div className="row">
                     <div className="col-md-12">
-                        <h2 className="defaultHeader" style={h2Style}>Rapeseed As A Fuel For BioDiesel</h2> 
-                        <p>image here</p>
+                        <br />
+                        <img src={rapeseedImage} className="img-responsive introImage" alt="Rapeseed As A Fuel Image"/>
                         <br />
                         <p>
                             Rapeseed is one of the most important oils used for the production of biodiesel. In Europe rapeseed is one of the most common oil used for production of Biodiesel.

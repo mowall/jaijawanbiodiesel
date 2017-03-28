@@ -2,15 +2,13 @@ import React from 'react';
 
 export default class BioDieselFromNeemOil extends React.Component {
     render () {
-    	const h2Style= {
-    		borderBottom:"none"
-    	};
+        const neemOilImage = require('../../../../images/neemoil.png');
         return (
             <div className="col-md-9 contentScreen">
             	<div className="row">
             		<div className="col-md-12">
-            			<h2 className="defaultHeader" style={h2Style}>BioDiesel From Neem Oil</h2>
-            			<p>image here</p>
+            			<br />
+                            <img src={neemOilImage} className="img-responsive introImage" alt="Bio Diesel From Neem Oil Image"/>
             			<br />
             			<h3 className="defaultHeader">Neem Oil as a Biofuel</h3>
             			<p>

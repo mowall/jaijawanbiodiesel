@@ -2,15 +2,13 @@ import React from 'react';
 
 export default class RiceBranOil extends React.Component {
     render () {
-    	const h2Style= {
-    		borderBottom:"none"
-    	};
+    	const RiceBranOilImage = require('../../../../images/ricebranoil.png');
         return (
             <div className="col-md-9 contentScreen">
                 <div className="row">
                     <div className="col-md-12">
-                        <h2 className="defaultHeader" style={h2Style}>Rice Bran Oil</h2>
-                        <p>image here</p>
+                        <br />
+                        <img src={RiceBranOilImage} className="img-responsive introImage" alt="Rice Bran Oil Image"/>
                         <br />
                         <p>
                             Rice bran oil is a non-conventional, inexpensive and low-grade vegetable oil. Crude rice bran oil is also source of high value added by-products. Thus, if the by-products are derived from the crude rice bran oil and the resultant oil is used as a feedstock for biodiesel, the resulting biodiesel could be quite economical and affordable.

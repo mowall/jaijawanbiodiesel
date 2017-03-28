@@ -2,15 +2,13 @@ import React from 'react';
 
 export default class BioDieselFromPalmOil extends React.Component {
     render () {
-    	const h2Style= {
-    		borderBottom:"none"
-    	};
+    	const palmOilImage = require('../../../../images/palmoil.png');
         return (
             <div className="col-md-9 contentScreen">
                 <div className="row">
                     <div className="col-md-12">
-                        <h2 className="defaultHeader" style={h2Style}>BioDiesel From Palm Oil</h2>
-                        <p>image here</p>
+                        <br />
+                        <img src={palmOilImage} className="img-responsive introImage" alt="BioDiesel From Palm Oil Image"/>
                         <br />
                         <h3 className="defaultHeader">Source</h3>
                         <p>

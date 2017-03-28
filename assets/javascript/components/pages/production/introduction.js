@@ -2,9 +2,12 @@ import React from 'react';
 
 export default class Introduction extends React.Component {
     render () {
+      const h2Style={
+        borderBottom: "none"
+      };
         return (
             <div className="col-md-12">
-            	<h2 className='defaultHeader'>BioDiesel Production</h2>
+            	<h2 className='defaultHeader' style={h2Style}>BioDiesel Production</h2>
                <p>
                Biodiesel is commonly produced by the transesterification of the vegetable oil or animal fat feedstock. There are several methods for carrying out this transesterification reaction including the common batch process, supercritical processes, ultrasonic methods, and even microwave methods.
                </p>

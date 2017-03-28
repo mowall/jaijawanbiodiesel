@@ -2,15 +2,13 @@ import React from 'react';
 
 export default class AnimalTallow extends React.Component {
     render () {
-      const h2Style= {
-            borderBottom:"none"
-      };
+      const animalTallowImage = require('../../../../images/animaltallow.png');
         return (
             <div className="col-md-9 contentScreen">
             	<div className="row">
             		<div className="col-md-12">
-            			<h2 className="defaultHeader" style={h2Style}>Animal Tallow</h2>
-            			<p>image here</p>
+                              <br />
+            			<img src={animalTallowImage} className="img-responsive introImage" alt="Animal Tallow Image"/>
             			<br />
             			<p>
             				Animal Tallow used for production of Biodiesel.
