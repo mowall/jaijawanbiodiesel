@@ -8,7 +8,7 @@ export default class Contact extends React.Component {
                <div className="row">
                		<div className="col-md-12">
                     <br />
-               			<img src={contactImage} className="img-responsive" alt="Contact Image"/>
+               			<img src={contactImage} className="img-responsive introImage" alt="Contact Image"/>
                			<dl className="defaultDescList">
                				<dt>Registered Office & Mailing Address:</dt>
                				<dd>

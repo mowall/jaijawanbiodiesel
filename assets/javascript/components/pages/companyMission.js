@@ -2,15 +2,14 @@ import React from 'react';
 
 export default class CompanyMission extends React.Component {
     render () {
-    	const h2Style={
-    		borderBottom: "none"
-    	};
+        const companyMissionImage = require('../../../images/companymission.png');
         return (
             <div className="col-md-9 contentScreen">
             	<div className="row">
             		<div className="col-md-12">
-            			<h2 className="defaultHeader" style={h2Style}>Company Mission</h2>
-            			<p>image here</p>
+                        <br />
+                        <img src={companyMissionImage} className="img-responsive introImage" alt="Company Mission Image"/>
+                        <br />
                         <p>
             				<b>
             					Our sky is murky, Sheath of polluted emissions over our environment, Atmospheric Pollution, Global Warming, Health Hazards, Scarcity of Fuels accompanied with ever escalating price has become a major concern for the Global Community and Mankind today.

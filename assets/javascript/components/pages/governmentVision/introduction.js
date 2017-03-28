@@ -2,8 +2,11 @@ import React from 'react';
 
 export default class Introduction extends React.Component {
     render () {
+        const govtMissionImage = require('../../../../images/governmentmission.png'); 
         return (
             <div className="col-md-12">
+              <br />
+              <img src={govtMissionImage} className="img-responsive introImage" alt="Government Mission Image"/>
             	<h2 className="defaultHeader">BioDiesel Programme</h2>
               <p>
               Minister for Petroleum and Natural Gas Dharmendra Pradhan on Monday launched the 
