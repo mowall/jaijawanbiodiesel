@@ -2,7 +2,7 @@ import React from 'react';
 
 export default class FutureFuel extends React.Component {
     render () {
-        const biodieselImage = require('../../../../images/biodieselImage.jpg');
+        const biodieselImage = require('../../../../images/biodieselImage.png');
         const h2Style={
             borderBottom: "none"
         };
@@ -11,8 +11,10 @@ export default class FutureFuel extends React.Component {
             <div className="col-md-9 contentScreen">
                 <div className="row">
                 	<div className="col-md-12">
+                        <br />
+                        <img src={biodieselImage} className="img-responsive introImage" alt="BiodDiesel Image"/>
+                        <br />
                 		<h2 className='defaultHeader' style={h2Style}>BiodDiesel - A Fuel Of Future</h2>
-                		<img src={biodieselImage} className="img-responsive" alt="BiodDiesel Image"/>
                 		<br />
                 		<p>
                 			Biodiesel is a safe alternative fuel to replace traditional petroleum diesel. It has high-lubricity, is a clean-burning fuel and can be a fuel component for use in existing, unmodified diesel engines. This means that no retrofits are necessary when using biodiesel fuel in any diesel powered combustion engine. It is the only alternative fuel that offers such convenience. Biodiesel acts like petroleum diesel, but produces less air pollution, comes from renewable sources, is biodegradable and is safer for the environment. Producing biodiesel fuels can help create local economic revitalization and local environmental benefits. Many groups interested in promoting the use of biodiesel already exist at the local, state and national level.

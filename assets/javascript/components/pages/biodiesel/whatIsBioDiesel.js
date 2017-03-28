@@ -2,7 +2,7 @@ import React from 'react';
 
 export default class WhatIsBioDiesel extends React.Component {
     render () {
-        const biodieselImage = require('../../../../images/biodieselImage.jpg');
+        const biodieselImage = require('../../../../images/biodieselImage.png');
         const h2Style={
             borderBottom: "none"
         };
@@ -11,8 +11,10 @@ export default class WhatIsBioDiesel extends React.Component {
             <div className="col-md-9 contentScreen">
                 <div className="row">
                 	<div className="col-md-12">
+                        <br />
+                        <img src={biodieselImage} className="img-responsive introImage" alt="BiodDiesel Image"/>
+                        <br />
                 		<h2 className='defaultHeader' style={h2Style}>What Is BioDiesel</h2>
-                		<img src={biodieselImage} className="img-responsive" alt="BiodDiesel Image"/>
                 		<br />
                 		<p>
                 		Biodiesel refers to a non-petroleum-based diesel fuel consisting of short chain alkyl (methyl or ethyl) esters, made by Transesterfication of vegetable oil or animal fat (tallow), which can be used (alone, or blended with conventional petrodiesel) in unmodified diesel-engine vehicles. Biodiesel is distinguished from the straight vegetable oil (SVO) (sometimes referred to as "waste vegetable oil", "WVO", "used vegetable oil", "UVO", "pure plant oil", "PPO") used (alone, or blended) as fuels in some converted diesel vehicles. "Biodiesel" is standardized as mono-alkyl ester.

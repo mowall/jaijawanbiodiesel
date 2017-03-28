@@ -2,7 +2,7 @@ import React from 'react';
 
 export default class FactsAndFigures extends React.Component {
     render () {
-    	const biodieselImage = require('../../../../images/biodieselImage.jpg');
+    	const biodieselImage = require('../../../../images/biodieselImage.png');
         const avaiableOilResourcesImage = require('../../../../images/avaiableOilResourcesImage.jpg'); 
     	const biodieselLubricityImage = require('../../../../images/biodieselLubricityImage.jpg'); 
         const h2Style={
@@ -12,8 +12,10 @@ export default class FactsAndFigures extends React.Component {
             <div className="col-md-9 contentScreen">
             	<div className="row">
             		<div className="col-md-12">
+                        <br />
+                        <img src={biodieselImage} className="img-responsive introImage" alt="BiodDiesel Image"/>
+                        <br />
             			<h2 className='defaultHeader' style={h2Style}>Facts & Figures Of BiodDiesel</h2>
-                		<img src={biodieselImage} className="img-responsive" alt="BiodDiesel Image"/>
             			<br />
             			<p>
             				Fundamentals that lead to Biofuels:

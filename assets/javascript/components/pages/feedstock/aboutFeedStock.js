@@ -2,15 +2,14 @@ import React from 'react';
 
 export default class AboutFeedStock extends React.Component {
     render () {
-    	const h2Style= {
-    		borderBottom:"none"
-    	};
+    	const feedstockImage = require('../../../../images/feedstock.png');
         return (
             <div className="col-md-9 contentScreen">
             	<div className="row">
             		<div className="col-md-12">
-            			<h2 className="defaultHeader" style={h2Style}>About FeedStock</h2>
-            			<p>image goes here</p>
+                        <br />
+                        <img src={feedstockImage} className="img-responsive introImage" alt="Feed Stock Image"/>
+                        <br />
             			<p>
             				<b>
             					As we all know the phrase that "Change Is The Only Constant Factor", we believe in adopting and implementing those methods, processes and procedures that are less sensitive to any kind of change which affects our vicinity of work.

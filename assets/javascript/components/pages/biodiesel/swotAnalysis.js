@@ -2,7 +2,7 @@ import React from 'react';
 
 export default class SWOTAnalysis extends React.Component {
     render () {
-    	const biodieselImage = require('../../../../images/biodieselImage.jpg');
+    	const biodieselImage = require('../../../../images/biodieselImage.png');
     	const h2Style={
     		borderBottom: "none"
     	};
@@ -11,8 +11,11 @@ export default class SWOTAnalysis extends React.Component {
             <div className="col-md-9 contentScreen">
             	<div className="row">
             		<div className="col-md-12">
+                        <br />
+                        <img src={biodieselImage} className="img-responsive introImage" alt="BiodDiesel Image"/>
+                        <br />
             			<h2 className='defaultHeader' style={h2Style} >SWOT Analysis</h2>
-                		<img src={biodieselImage} className="img-responsive" alt="BiodDiesel Image"/>
+                        <br />
                 		<h3 className='defaultHeader'>Transesterification Process</h3>
                 		<dl className="defaultDescList">
                 			<dt>STRENGTHS</dt>

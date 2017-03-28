@@ -2,9 +2,6 @@ import React from 'react';
 
 export default class CurrentResearch extends React.Component {
     render () {
-    	const h2Style={
-    		borderBottom: "none"
-    	};
      const currentResearchImage = require('../../../images/currentResearchImage.png');
         return (
             <div className="col-md-9 contentScreen">

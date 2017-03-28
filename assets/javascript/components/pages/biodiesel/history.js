@@ -2,7 +2,7 @@ import React from 'react';
 
 export default class BioDieselHistory extends React.Component {
     render () {
-        const biodieselImage = require('../../../../images/biodieselImage.jpg');
+        const biodieselImage = require('../../../../images/biodieselImage.png');
         const h2Style={
             borderBottom: "none"
         };
@@ -10,8 +10,10 @@ export default class BioDieselHistory extends React.Component {
             <div className="col-md-9 contentScreen">
                 <div className="row">
                 	<div className="col-md-12">
+                        <br />
+                        <img src={biodieselImage} className="img-responsive introImage" alt="BiodDiesel Image"/>
+                        <br />
                 		<h2 className='defaultHeader' style={h2Style}>History Of BioDiesel</h2>
-                		<img src={biodieselImage} className="img-responsive" alt="BiodDiesel Image"/>
                 		<br />
                 		<p>
                 			Developed in the 1890s by inventor Rudolph Diesel, the diesel engine has become the engine of choice for power, reliability, and high fuel economy, worldwide. Early experimenters on vegetable oil fuels included the French government and Dr. Diesel himself, who envisioned that pure vegetable oils could power early diesel engines for agriculture in remote areas of the world, where petroleum was not available at the time. Modern biodiesel fuel, which is made by converting vegetable oils into compounds called fatty acid methyl esters, has its roots in research conducted in the 1930s in Belgium, but today’s biodiesel industry was not established in Europe until the late 1980s.
