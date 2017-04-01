@@ -6,8 +6,9 @@ var webpack = require('webpack');
      entry: path.resolve(__dirname,'./assets/javascript/main.js'),
      devtool: debug ? 'inline-sourcemap':false,
      output: {
-         path: path.resolve(__dirname, 'build'),
+         path: path.resolve(__dirname, 'public'),
          filename: 'main.bundle.js',
+         publicPath: '/public/'
      },
      module: {
          loaders: [
